@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Satisfied Jobs",
+    "slug": "AwesomeProject",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aniketpatidar.SatisfiedJobs",
+      "buildProperties": {
+        "plugins": [
+          [
+            "expo-build-properties",
+            {
+              "deploymentTarget": "13.0"
+            }
+          ]
+        ]
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aniketpatidar.SatisfiedJobs",
+      "buildProperties": {
+        "plugins": [
+          [
+            "expo-build-properties",
+            {
+              "compileSdkVersion": 31,
+              "targetSdkVersion": 31,
+              "buildToolsVersion": "31.0.0"
+            }
+          ]
+        ]
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdae47f3-bd0c-4fc8-a0ec-59be5d7ca1f7"
+      }
+    }
+  }
+}
